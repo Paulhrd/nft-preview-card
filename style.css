@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+}
+
+.box {
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    width: 350px;
+    margin:20px auto;
+    box-shadow: 6px 6px 6px black;
+
+    
+}
+
+.cube {
+    width: 300px;
+    height: auto;
+    border-radius:20px;
+    margin: 20px;
+
+}
+
+h1,strong {
+    color: hsl(0, 0%, 100%);
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 24px;
+    margin: 10px 100px 10px 0;
+}
+
+
+h2 {
+    color: hsl(178, 100%, 50%);
+}
+
+p {
+    margin: 0 25px 25px 25px;
+    line-height: 1.5rem;
+}
+
+h2,h3 {
+    font-size: 16px;
+    margin: 0 0 0 10px;
+}
+
+.priceline {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+    
+}
+.crypto, .time {
+    display: flex;
+
+}
+
+.bottomcard {
+    display: flex;
+    margin: 20px 20px 20px 0;
+    padding-top: 30px;
+    border-top: solid 0.05em;
+    border-color: hsl(215, 51%, 70%);
+    
+}
+
+.avatar {
+    width: 100px;
+    height: auto;
+    border: solid 0.05em;
+    border-color: hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+.bottomcard p {
+    margin: 35px 0 35px 10px;
+}
+
+h1:hover {
+    color: hsl(178, 100%, 50%);
+}
+strong:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.eye {
+    position:absolute;
+    z-index: 2;
+    padding: 125px;
+    margin-top: -158px;
+    opacity: 0;
+    background-color: transparent;
+    border-radius: 20px;
+
+}
+
+.eye:hover {
+    opacity:1;
+    background-color: hsl(178, 100%, 50%, 0.5);
+}
